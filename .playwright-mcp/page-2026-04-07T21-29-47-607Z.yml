@@ -1,0 +1,89 @@
+- generic [active] [ref=e1]:
+  - navigation [ref=e2]:
+    - link "Green Root Concepts" [ref=e3] [cursor=pointer]:
+      - /url: index.html
+    - button "Menu" [ref=e4] [cursor=pointer]
+  - generic:
+    - generic:
+      - list:
+        - listitem:
+          - link:
+            - /url: index.html
+            - text: Home
+        - listitem:
+          - link:
+            - /url: about.html
+            - text: About Dali
+        - listitem:
+          - link:
+            - /url: services.html
+            - text: The Ecosystem
+        - listitem:
+          - link:
+            - /url: ethos.html
+            - text: Ethos & Impact
+        - listitem:
+          - link:
+            - /url: contact.html
+            - text: Collaborate
+      - generic:
+        - paragraph: Contact
+        - paragraph: +1 602 999 2566
+        - paragraph: hello@greenrootconcepts.org
+        - paragraph: www.greenrootconcepts.org
+  - banner [ref=e8]:
+    - generic [ref=e9]:
+      - heading "GREEN ROOT CONCEPTS" [level=1] [ref=e10]:
+        - text: GREEN ROOT
+        - text: CONCEPTS
+      - paragraph [ref=e11]: Food that heals. · Land that thrives.
+      - paragraph [ref=e12]: By Dali Solene
+    - img "Dew-touched leaf" [ref=e14]
+  - blockquote [ref=e16]:
+    - text: “When we listen to the rhythm of the earth, we awaken the ancient alchemy that turns food into medicine, nourishment into healing, and community into belonging.”
+    - generic [ref=e17]: — Dali Solene
+  - generic [ref=e19]:
+    - paragraph [ref=e20]: Introduction
+    - heading "A living philosophy of regeneration" [level=2] [ref=e21]
+    - generic [ref=e23]: ◆ ◇ ◆
+    - paragraph [ref=e24]: Green Root Concepts bridges ecological science and ancestral wisdom to rebuild the relationship between land, food, and human vitality. We design regenerative systems that restore soil fertility, capture water, and increase biodiversity — while teaching how nourishment, biology, and culture are deeply interconnected.
+    - paragraph [ref=e25]:
+      - link "Meet Dali Solene" [ref=e26] [cursor=pointer]:
+        - /url: about.html
+  - generic [ref=e28]:
+    - generic [ref=e29]:
+      - paragraph [ref=e30]: The Living Ecosystem
+      - heading "Three living expressions" [level=2] [ref=e31]
+      - generic [ref=e33]: ◆ ◇ ◆
+      - paragraph [ref=e34]: The Kitchen, the Land, and the Classroom — each a reflection of how nourishment regenerates life.
+    - generic [ref=e35]:
+      - generic [ref=e36]:
+        - img [ref=e38]
+        - heading "Regenerative Systems" [level=3] [ref=e41]:
+          - text: Regenerative
+          - text: Systems
+        - paragraph [ref=e42]: Living landscapes and food forests that restore fertility, biodiversity, and harmony.
+      - generic [ref=e43]:
+        - img [ref=e45]
+        - heading "Food as Medicine" [level=3] [ref=e48]:
+          - text: Food as
+          - text: Medicine
+        - paragraph [ref=e49]: Teaching how to eat, grow, and source food in ways that deepen connection to the earth.
+      - generic [ref=e50]:
+        - img [ref=e52]
+        - heading "Conscious Cooking" [level=3] [ref=e56]:
+          - text: Conscious
+          - text: Cooking
+        - paragraph [ref=e57]: Seasonal, intentional cuisine that nourishes the body and balances the nervous system.
+      - generic [ref=e58]:
+        - img [ref=e60]
+        - heading "Property Stewardship" [level=3] [ref=e64]:
+          - text: Property
+          - text: Stewardship
+        - paragraph [ref=e65]: Tending to spaces with the same intention and precision as land and food.
+    - paragraph [ref=e66]:
+      - link "Explore the Ecosystem" [ref=e67] [cursor=pointer]:
+        - /url: services.html
+  - contentinfo [ref=e68]:
+    - generic [ref=e69]: Green Root Concepts
+    - text: Food that heals · Land that thrives · By Dali Solene
