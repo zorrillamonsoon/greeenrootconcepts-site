@@ -23,7 +23,7 @@ h3{font-size:clamp(1.4rem,2vw,1.9rem)}
 .container{max-width:2560px;margin:0 auto;padding:0 clamp(1.2rem,4vw,3rem)}
 
 /* NAV */
-.nav{position:fixed;top:0;left:0;right:0;z-index:9999;display:flex;justify-content:space-between;align-items:center;padding:1.4rem clamp(1.2rem,4vw,3rem);color:var(--cream)}
+.nav{position:fixed;top:0;left:0;right:0;z-index:9999;display:flex;justify-content:space-between;align-items:center;padding:1.4rem clamp(1.2rem,4vw,3rem);background:var(--forest);box-shadow:0 6px 24px rgba(0,0,0,.22);color:var(--cream)}
 .nav .brand{display:flex;align-items:center}
 .nav .brand img{height:115px;width:auto;display:block}
 .burger{width:34px;height:22px;position:relative;cursor:pointer;background:none;border:0}
@@ -169,7 +169,7 @@ footer .brand{font-family:'Italiana',serif;font-size:1.1rem;color:var(--cream);l
   .hero-text{padding:7rem 1.2rem 3rem;text-align:center}
   .hero-text h1{font-size:clamp(2.4rem,11vw,3.6rem);max-width:14ch}
   .menu li a{font-size:2.2rem}
-  .nav{background:var(--forest);padding:1rem 1.2rem;box-shadow:0 6px 20px rgba(0,0,0,.18)}
+  .nav{padding:1rem 1.2rem}
   .nav .brand img{height:64px}
   section{padding:4rem 0}
   .container{padding:0 1.2rem}
