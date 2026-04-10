@@ -1,0 +1,28 @@
+GREEN ROOT CONCEPTS — Technical TODO
+=====================================
+
+PERFORMANCE
+- Move Three.js script tag to index.html only (currently loads on every page)
+- Convert images to WebP with <picture> fallbacks (especially bio-pic.chefdali.png and pillar icons)
+- Add font-display: swap and subset Google Fonts to only weights/characters used
+- Add <link rel="preload"> for hero-leaf.jpg to improve LCP
+
+SEO / ACCESSIBILITY
+- Add <meta name="description"> to subpages (about, services, ethos, contact)
+- Toggle aria-hidden on menu overlay when opened/closed
+- Add descriptive alt text to oval photos on services.html
+- Add <link rel="canonical"> tags (now that custom domain is live)
+- Add favicon / <link rel="icon">
+
+RESILIENCE
+- Add <noscript> fallback nav for when JS fails to load
+- Automate CSS cache-busting via GitHub Actions (append commit hash instead of manual ?v=N)
+
+DESIGN POLISH
+- Move @keyframes rpl from JS-injected style to stylesheet
+- Replace direction:rtl hack on services.html with order:-1 or .g-split-reverse class
+- Add print stylesheet
+
+DEPLOYMENT
+- Add custom 404.html page
+- Verify CNAME file persists through any restructure
